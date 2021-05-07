@@ -14,7 +14,8 @@
   h2 {
     font-style: normal;
     font-family: 'Fascinate', cursive;
-    color: #c4c3d0
+    color: #c4c3d0;
+    font-size: 2rem;
     
   }
 
@@ -22,4 +23,5 @@
     color: #640064;
     font-family: 'Fascinate', cursive;
     padding: 50px;
+    font-size: 3rem;
   }
