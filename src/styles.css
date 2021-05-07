@@ -26,10 +26,6 @@
     font-size: 3rem;
   }
 
-  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
-and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
-{
-  img {
-    max-width: 200px;
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    img { max-width: 100%; }
   }
-}
