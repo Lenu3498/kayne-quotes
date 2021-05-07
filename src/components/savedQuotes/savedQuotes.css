@@ -1,0 +1,12 @@
+.quote {
+    padding: 5px 10px;
+    margin: 2px;
+    font-style: italic;
+    color: #640064;
+    /* background-color: #EEEEEE; */
+    /* border: 1px solid #DDDDDD;  */
+}
+
+.quoteList__container {
+    margin-top: 60px;
+}
