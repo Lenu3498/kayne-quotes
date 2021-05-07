@@ -11,7 +11,7 @@ export default function SavedQuotes({ quoteList }) {
     <div className="quoteList__container">
       <ul>
         {quoteList.map((quote) => (
-          <li className="quote" key={quote.id}>-{quote}-</li>
+          <li className="quote" key={quote.id}>++{quote}++</li>
         ))}
       </ul>
     </div>
