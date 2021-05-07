@@ -51,7 +51,7 @@ const App = () => {
 
     const interval = setInterval(() => {
       fetchQuotes();
-    }, 10000);
+    }, 6000);
     return () => clearInterval(interval);
   },[]);
 
