@@ -8,39 +8,19 @@ import SavedQuotes from "./components/savedQuotes/savedQuotes.js";
 const App = () => {
   const [quote, setQuote] = useState("");
   const [isLoading, setIsLoading] = useState(true);
-  //const quotes = [];
   const [quoteList, setQuoteList] = useState([]);
 
   useEffect(() => {
     async function fetchQuotes() {
-      
-      // if (quoteList.length===11){
-      //   quoteList.pop();
-      // };
       setIsLoading(true);
       try {
         axios.get("https://api.kanye.rest").then((result) => {
           const data = result.data.quote;
-          // console.log(data);
-          // setQuote(data);
-          // setQuoteList(quoteList => quoteList.concat(quote));
           setQuote(data);
-          // console.log(quote);
-          // console.log(quoteList.length);
           setQuoteList(quoteList => [data, ...quoteList]);
-        
+      
+          setIsLoading(false);
           
-          return;
-          
-
-
-          // if (data.length === 0) {
-          //   setIsLoading(false);
-          // } else {
-          //   // setQuoteList([...quoteList, data ]);
-          //   // setQuote(data);
-          //   setIsLoading(false);
-          // }
         });
       } catch (error) {
         alert("No results");
@@ -66,8 +46,6 @@ const App = () => {
         Kayne says
       </h1>
       <KanyeGif />
-
-      
       <QuoteList isLoading={isLoading} quote={quote} />
       <SavedQuotes quoteList={quoteList} quote={quote} />
     </div>

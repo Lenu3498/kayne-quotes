@@ -19,7 +19,7 @@ const KanyeGif = () => {
   }, []);
 
   return (
-    <>{kanyeGif && <img src={kanyeGif} alt="Kanye West" height="200" width="320" />}</>
+    <>{kanyeGif && <img src={kanyeGif} alt="Kanye West" height="150"/>}</>
   );
 };
 

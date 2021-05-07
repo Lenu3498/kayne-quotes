@@ -30,6 +30,6 @@
 and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
 {
   img {
-    max-width: 300px;
+    max-width: 200px;
   }
 }
