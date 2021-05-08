@@ -17,23 +17,21 @@ const App = () => {
         axios.get("https://api.kanye.rest").then((result) => {
           const data = result.data.quote;
           setQuote(data);
-          setQuoteList(quoteList => [data, ...quoteList]);
-      
+          setQuoteList(quoteList => [quote, ...quoteList]);
           setIsLoading(false);
-          
         });
       } catch (error) {
         alert("No results");
       }
     }
 
-    fetchQuotes();
+    // fetchQuotes();
 
     const interval = setInterval(() => {
       fetchQuotes();
     }, 6000);
     return () => clearInterval(interval);
-  },[]);
+  },[quote, quoteList]);
 
   console.log(quoteList.length);
          if (quoteList.length===11){
