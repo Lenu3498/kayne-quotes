@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kayne-quotes/static/css/main.6779b81a.chunk.css",
-    "main.js": "/kayne-quotes/static/js/main.c8184bcb.chunk.js",
-    "main.js.map": "/kayne-quotes/static/js/main.c8184bcb.chunk.js.map",
+    "main.js": "/kayne-quotes/static/js/main.cb6e6cad.chunk.js",
+    "main.js.map": "/kayne-quotes/static/js/main.cb6e6cad.chunk.js.map",
     "runtime-main.js": "/kayne-quotes/static/js/runtime-main.1c4dbe5a.js",
     "runtime-main.js.map": "/kayne-quotes/static/js/runtime-main.1c4dbe5a.js.map",
     "static/js/2.2f8b1d17.chunk.js": "/kayne-quotes/static/js/2.2f8b1d17.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.1c4dbe5a.js",
     "static/js/2.2f8b1d17.chunk.js",
     "static/css/main.6779b81a.chunk.css",
-    "static/js/main.c8184bcb.chunk.js"
+    "static/js/main.cb6e6cad.chunk.js"
   ]
 }
